@@ -1,0 +1,4 @@
+// unwrap is needed as `read_to_string` returns a Result.
+// this means the function can fail. Result is an enum and must always be explicitly handled.
+// unwrap() immidiately panics if the result is an Err.
+std::fs::read_to_string("README.md").unwrap();

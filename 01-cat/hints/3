@@ -1,0 +1,4 @@
+// collect allocates mem and copies all the data to the heap which is SLOOOOOW
+// you can almost alwasy avoid extra allocations by lazy evaluating the iter as new data comes in.
+std::env::args().skip(1)
+	.for_each(|file| todo!("process file"));

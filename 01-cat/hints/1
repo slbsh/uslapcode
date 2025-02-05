@@ -1,0 +1,4 @@
+// std::env::args() returns an Iterator. See docs for Iterator for more methods.
+// skip(1) skips the first elem. which in this case is the name of our program.
+// collect() comsumes the iter into a collection, like vec so it can be used later.
+let files = std::env::args().skip(1).collect::<Vec<String>>();
