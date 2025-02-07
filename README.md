@@ -11,4 +11,4 @@ Each problem will have resources in the README. Some may also have a hints direc
 - Try to optimize and make your code readable
 - no clippy warns. Some BS ones may be ignored, just do what's best.
 - Avoid googling full terms or using llms cause those may give full solutions, which is no fun to all :p
-- Rust/crate docs are always fair game
+- Rust/crate docs, Rust book, and wikipedia are always fair game
