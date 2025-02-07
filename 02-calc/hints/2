@@ -1,0 +1,9 @@
+for tok in "+ 1 2".trim().split_whitespace() {
+	match tok {
+		"+" => println!("Add"),
+		"-" => println!("Sub"),
+		"*" => println!("Mul"),
+		"/" => println!("Div"),
+		_ => println!("Num: {}", tok),
+	}
+}

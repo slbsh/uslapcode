@@ -1,0 +1,4 @@
+// use split_whitespace to get the content, if begins with a space the first elem will be empty,
+// so we trim before, this eliminates all spaces except for content we want, you can then iterate over that.
+// This essentially provides an Iterator of tokens :v
+"+ 1 2".trim().split_whitespace()
